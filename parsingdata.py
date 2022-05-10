@@ -102,6 +102,8 @@ stars_pattern = re.compile(r"\d+\.?\d*")
 permonth_pattern = re.compile(r'month')
 perhour_pattern = re.compile(r'hour')
 salaryKpattern = re.compile(r'(\d+,?\d+)+\.?\d*K')
+
+#change the brackets to get all links' data parsed
 for url in jobpages[:10]:
     
     joblink = url
